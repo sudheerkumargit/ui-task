@@ -1,0 +1,29 @@
+<section class="example-container">
+    <mat-form-field >
+
+        <input type="number" placeholder="Enter Number of Rows" matInput  [(ngModel)]="numberOfRows" (input)="addRows()"> 
+    </mat-form-field>
+
+    <form [formGroup]="phaseForm" novalidate (ngSubmit)="onSubmit()">
+
+
+
+        <div formGroupName="phaseExecutions">
+          
+            <div formArrayName="PRE" >
+                <div *ngFor="let phase of phaseArray.controls; let i = index;" [formGroupName]="i">
+                    <div *ngIf="i!=0" class="row mt-2 ">
+                        <div class="col">
+                            <input type="text" placeholder="Name" class="form-control col" formControlName="phaseName">
+                        </div>
+                        <div class="col">
+                            <input type="text" placeholder="ID" class="form-control col" formControlName="phaseId">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        
+    </form>
+</section>

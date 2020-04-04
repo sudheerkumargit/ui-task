@@ -1,0 +1,21 @@
+
+ <mat-toolbar color="primary" class="expanded-toolbar">
+    <span>
+      <button (click)="dashboard()" mat-button>Dashboard</button>
+      <!-- <button mat-button routerLink="/"><mat-icon>home</mat-icon></button> -->
+    </span>
+ 
+  <button mat-button [mat-menu-trigger-for]="menu" fxHide="false" fxHide.gt-sm>
+      Sudheer
+    <mat-icon>account_circle</mat-icon>
+  </button>
+</mat-toolbar>
+<mat-menu x-position="before" #menu="matMenu">
+  <button mat-menu-item>
+    Profile
+  </button>
+  <button (click)="logout()" mat-menu-item>
+    Logout
+  </button>
+  
+</mat-menu>

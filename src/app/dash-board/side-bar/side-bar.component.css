@@ -1,0 +1,24 @@
+ul li{
+    list-style: none;
+}
+ul li a{
+    font-size: 14px;
+    /* color: #000; */
+    padding: 5px;
+    text-decoration: none;
+}
+a:link{
+    color:blue;
+}
+
+a:hover{
+    color:brown
+}
+
+a:active{
+    color: green;
+}
+.active{
+    color: #000;
+    font-weight: 600;
+}

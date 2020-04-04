@@ -1,0 +1,9 @@
+.chart-container{
+    width: 90%;
+    height: 40vh;
+    padding: 20px;
+    position: relative;
+}
+.chartborder{
+    /* border:1px solid black; */
+}
