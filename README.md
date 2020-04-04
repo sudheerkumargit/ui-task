@@ -1,27 +1,12 @@
-# UiTask
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Assignment
+### To run the project Install node modules
+### 1. Landing Page
+![Login Screen](ui-screens/landing-page.png)
+### 2. Home Page -Menu 1
+![Register Screen](ui-screens/homepage.png)
+### 3. Menu 1-1
+![User List Screen](ui-screens/form-rows.png)
+### 4. Profile Context-menu 
+![Add user Screen](ui-screens/context-menu.png)
+### 5. Menu 2 - Bar chart
+![Update user Screen](ui-screens/bar-chart.png)
